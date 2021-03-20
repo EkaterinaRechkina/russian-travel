@@ -16,11 +16,6 @@
   }
 .page {
     font-family: 'Inter', Arial, sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     background-color: #2A2C2F;
     color: white;
@@ -31,6 +26,8 @@
     display: flex;
     justify-content: space-between;
     padding: 1em 1em 0;  
+    max-width: 74.25em;
+    margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
     .header {
@@ -56,12 +53,7 @@
     display: flex;
     list-style-type: none;
     margin: 0;
-    padding: 1em 0 0 0;
-}
-@media screen and (min-width: 768px) {
-    .header__lang-links {
-        padding: 1.25em 0 0 0;
-    }
+    padding: 0.9em 0 0 0;
 }
 .header__lang-link {
     color: #FFFFFF;
@@ -80,7 +72,7 @@
 }
 .lang-link_active {
     text-decoration: underline;
-    padding-right: 1.2em;
+    padding-right: 0.8em;
 }
 
 .sections__grid {
@@ -128,8 +120,7 @@
 }
 @media screen and (min-width: 1280px) {
     .lead__title {
-        
-        margin: 0 280px 0.33em;
+        margin: 9px 279px 0.33em 254px;
     }
 }
 .lead__subtitle {
@@ -154,7 +145,7 @@
 }
 @media screen and (min-width: 1280px) {
     .lead__subtitle {  
-        padding: 0 10.6em 2.1em;
+        padding: 0 10.6em 2.1em 9.6em;
     }
 }
 .lead__figure {
@@ -167,13 +158,13 @@
 }
 @media screen and (min-width: 1280px) {
     .lead__figure {
-        margin: 0 148px;  
+        margin: 0px 130px 0px 101px; 
     }
 }
 .lead__image {
     width: 100%;
     height: 100%;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.4em;
 }
 .lead__caption {
     font-weight: normal;
@@ -181,12 +172,14 @@
     line-height: 1.4;
     letter-spacing: 0.15em;
     text-transform: uppercase;  
-    padding-left: 1.6em;
+    margin: 0px 0px 0px 3px;
+    
 }
 
 /*intro*/
 .intro {
     margin-left: 1em;
+    max-width: 690px;
 }
 @media screen and (min-width: 1024px) {
     .intro {
@@ -196,7 +189,7 @@
 }
 @media screen and (min-width: 1280px) {
     .intro {
-        margin-left: 148px;
+        margin-left: 107px;
 
     }
 }
@@ -204,8 +197,7 @@
     font-weight: 900;
     font-size: 2em;
     line-height: 1.1;
-    margin-top: 0;
-    margin-bottom: 1.25em;
+    margin: 0;
 }
 @media screen and (min-width: 768px) {
     .intro__title {
@@ -218,19 +210,10 @@
     font-weight: normal;
     font-size: 1em;
     line-height: 1.63;
-    margin-top: 0;
+    margin-top: 39px;
     margin-bottom: 2.125em;
 }
-@media screen and (min-width: 1024px) {
-    .intro__text {
-        margin-right: 286px;
-    }
-}
-@media screen and (min-width: 1280px) {
-    .intro__text {
-        margin-right: 442px;
-    }
-}
+
 .intro__list {
     list-style-type: none;
     padding: 0;
@@ -247,7 +230,7 @@
 .photo-grid {
     display: grid;
     gap: 0.75em;
-    padding: 0 1em;
+    margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
     .photo-grid {
@@ -365,7 +348,7 @@
     }
 }
 .place__url-heading {
-    margin-bottom: 0.75em;
+    margin: -2px 0px 9px 0;
 }
 
 .place__link {
@@ -401,22 +384,23 @@
     }
 }
 .place__text {
+    margin: 0;
+    margin-bottom: 26px;
+    padding: 0;
+    font-style: normal;
     font-weight: normal;
-    font-size: 1em;
-    line-height: 1.625;
-    margin: 0 1em 1.56em;
+    font-size: 18px;
+    line-height: 29px;
 }
-@media screen and (min-width: 768px) {
-    .place__text {
-        margin: 0 0 1.56em;
-    }
+.place__description {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 484px;
+    min-width: 288px;
 }
-@media screen and (min-width: 1024px) {
-    .place__text {
-        font-size: 1.25em;
-        line-height: 163%;
-    }
-}
+
 .place__text:last-child {
     margin-bottom: 0;
 } 
@@ -424,19 +408,21 @@
     display: grid;
     gap: 3em;
     padding-left: 1em; 
+    max-width: 74.25em;
+    margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
     .footer {
         display: flex;
         justify-content: space-between;
         padding: 0;
-        margin: 0 24px;
+       
     }
 }
 @media screen and (min-width: 1024px) {
     .footer {
         padding: 0;
-        margin: 0 48px;
+       
     }
 }
 .footer__links {
@@ -480,32 +466,102 @@
         line-height: 1.125;
     }
 }
+.cover {
+    margin-bottom: 64px;
+}
+@media screen and (min-width: 768px) {
+    .cover {
+        margin-bottom: 88px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .cover {
+        margin-bottom: 92px;
+    }
+}
+
 .cover__background {
+    color: white;
+    text-decoration: none;
+}
+.cover__overlay {
+    position: relative;
     background-image: url(./images/__background.png);
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    object-fit: contain;
-    box-sizing: border-box;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2em  1em;
-    text-decoration: none;
-    color: white;
+    min-height: 200px;
+    text-align: center;
+    margin-bottom: 64px; 
+    position: relative;
+
+}
+@media screen and (min-width: 767px) {
+    .cover__overlay {
+        min-height: 480px;
+        margin-bottom: 88px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .cover__overlay {
+        min-height: 640px;
+        margin-bottom: 92px;
+    }
+}
+@media screen and (min-width: 1279px) {
+    .cover__overlay {
+        min-height: 740px;
+    }
+}
+.cover__overlay::before {
+    content: '';
+    background-color: #2A2C2F;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.cover__overlay:hover::before {
+     opacity: 0.8;
+     cursor: pointer;
+}
+.cover__text {
+    position: relative;
+    z-index: 1;
 }
 .cover__title {
     font-weight: 900;
     font-size: 2em;
     line-height: 1.1;
-    margin: 0;
+    max-width: 253px;    
     margin-bottom: 0.5em;
-    max-width: 9em;   
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+    .cover__title {
+    font-size: 72px;
+    line-height: 76px;
+    max-width: 560px; 
+    margin-bottom: 32px;  
+    }
 }
 .cover__subtitle {
     font-weight: normal;
     font-size: 0.875em;
-    line-height: 0.875;
-    margin: 0;   
-    max-width: 20.5em;   
+    line-height: 0.875;   
+    max-width: 20.5em;  
+    margin: 0 auto; 
+}
+@media screen and (min-width: 768px) {
+    .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 360px;   
+    }
 }
