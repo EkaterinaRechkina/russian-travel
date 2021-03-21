@@ -1,0 +1,15 @@
+.sections__grid {
+    display: grid;
+    gap: 4em;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+    .sections__grid {
+        gap: 5.5em;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .sections__grid {
+        gap: 5.75em;
+    }
+}

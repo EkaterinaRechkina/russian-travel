@@ -1,0 +1,13 @@
+.cover {
+    margin-bottom: 64px;
+}
+@media screen and (min-width: 768px) {
+    .cover {
+        margin-bottom: 88px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .cover {
+        margin-bottom: 92px;
+    }
+}
