@@ -5,12 +5,12 @@
     max-width: 74.25em;
     margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 321px) {
     .header {
         padding: 1.75em 1.5em 0;   
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 767px) {
     .header {
         padding: 1.75em 3em 0;   
     }

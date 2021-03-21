@@ -12,19 +12,19 @@
     position: relative;
 
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 321px) {
     .cover__overlay {
         min-height: 480px;
         margin-bottom: 88px;
     }
 }
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 767px) {
     .cover__overlay {
         min-height: 640px;
         margin-bottom: 92px;
     }
 }
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1025px) {
     .cover__overlay {
         min-height: 740px;
     }

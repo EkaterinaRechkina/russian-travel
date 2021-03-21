@@ -2,18 +2,18 @@
     display: grid;
     gap: 2em;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 321px) {
     .place {
         grid-template-columns: repeat(2, 1fr);
         gap: 48px 28px;
     } 
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 767px) {
     .place {
         gap: 48px 32px;
     } 
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
     .place {
         gap: 48px 40px;
     } 

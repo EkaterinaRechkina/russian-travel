@@ -7,19 +7,19 @@
     text-align: center;
     padding: 0 1em 2.5em;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 321px) {
     .lead__subtitle {  
         font-size: 1.875em;
         line-height: 1.2;
         padding: 0 2.1em 1.87em;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 767px) {
     .lead__subtitle {  
         padding: 0 6.4em 1.87em;
     }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
     .lead__subtitle {  
         padding: 0 10.6em 2.1em 9.6em;
     }

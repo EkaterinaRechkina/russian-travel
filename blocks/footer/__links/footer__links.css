@@ -5,7 +5,7 @@
     gap: 2em;
     margin: 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 321px) {
     .footer__links {
         display: flex;
     }

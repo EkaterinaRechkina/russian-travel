@@ -1,12 +1,12 @@
 .lead__figure {
     margin: 0;  
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 767px) {
     .lead__figure {
         margin: 0 48px;  
     }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
     .lead__figure {
         margin: 0px 130px 0px 101px; 
     }
