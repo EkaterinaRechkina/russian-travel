@@ -19,6 +19,6 @@
 }
 @media screen and (min-width: 1025px) {
     .lead__title {
-        margin: 9px 279px 0.33em 254px;
+        margin: 0px 279px 0.33em 254px;
     }
 }

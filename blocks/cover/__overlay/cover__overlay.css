@@ -8,9 +8,7 @@
     justify-content: center;
     min-height: 200px;
     text-align: center;
-    margin-bottom: 64px; 
-    position: relative;
-
+    margin-bottom: 64px;
 }
 @media screen and (min-width: 321px) {
     .cover__overlay {
