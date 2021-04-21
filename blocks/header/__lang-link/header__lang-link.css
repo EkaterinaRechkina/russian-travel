@@ -13,7 +13,3 @@
         line-height: 1.6;
     }
 }
-.header__lang-link_active {
-    text-decoration: underline;
-    padding-right: 0.8em;
-}

@@ -1,15 +1,15 @@
 .sections {
     display: grid;
-    gap: 4em;
+    gap: 64px;
     margin: 0 auto;
 }
 @media screen and (min-width: 321px) {
     .sections {
-        gap: 5.5em;
+        gap: 88px;
     }
 }
 @media screen and (min-width: 767px) {
     .sections {
-        gap: 5.75em;
+        gap: 92px;
     }
 }

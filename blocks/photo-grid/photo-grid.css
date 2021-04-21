@@ -1,23 +1,27 @@
 .photo-grid {
     display: grid;
-    gap: 0.75em;
+    gap: 12px;
     margin: 0 auto;
+   
 }
 @media screen and (min-width: 321px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 1em;
+        gap: 16px;
+       
     }
 }
 @media screen and (min-width: 767px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
-        gap: 0.875em;     
+        gap: 14px;     
     }
 }
 @media screen and (min-width: 1025px) {
     .photo-grid {
         grid-template-columns: repeat(4, 1fr);
-        gap: 1em;   
+        gap: 16px;   
+        max-width: 1184px;
+        margin: 0;
     }
 }
