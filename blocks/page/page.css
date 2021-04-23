@@ -4,6 +4,5 @@
     background-color: #2A2C2F;
     color: white;
     margin: 0 auto;
-    max-width: 1184px;
-    min-width: 288px;
+    overflow-x: hidden;
  } 

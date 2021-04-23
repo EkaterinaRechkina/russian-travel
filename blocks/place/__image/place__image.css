@@ -1,8 +1,8 @@
 .place__image {
-    width: 20em;
-    height: 20em;
+    width: 320px;
+    height: 320px;
 }
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 767px) {
     .place__image {
         width: 340px;
         height: 340px;
@@ -14,7 +14,7 @@
         height: 440px;
     }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1079px) {
     .place__image {
         width: 460px;
         height: 460px;

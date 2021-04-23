@@ -2,7 +2,7 @@
     width: 288px;
     height: 216px;
 }
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 767px) {
     .photo-grid__image {
         width: 352px;
         height: 264px;
@@ -14,7 +14,7 @@
         height: 225px;
     }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1079px) {
     .photo-grid__image {
         width: 284px;
         height: 213px;

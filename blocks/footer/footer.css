@@ -1,19 +1,18 @@
 .footer {
     display: grid;
-    gap: 3em;
-    padding-left: 1em;
-    max-width: 74.25em;
-    margin: 0 auto;
-}
-@media screen and (min-width: 321px) {
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        padding: 0;     
-    }
+    gap: 48px;
+    padding: 64px 0 0 16px;
+    margin:auto 0;
 }
 @media screen and (min-width: 767px) {
     .footer {
-        padding: 0;     
+        display: flex;
+        justify-content: space-between;
+        padding: 88px 24px 0;     
+    }
+}
+@media screen and (min-width: 1023px) {
+    .footer {
+        padding: 92px 48px 0;      
     }
 }

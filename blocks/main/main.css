@@ -1,0 +1,15 @@
+.main {
+    display: grid;
+    gap: 64px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 767px) {
+    .main {
+        gap: 88px;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .main {
+        gap: 92px;
+    }
+}

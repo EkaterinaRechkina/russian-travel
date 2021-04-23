@@ -1,13 +1,13 @@
-.cover {
-    margin-bottom: 64px;
+/*.cover {
+    
 }
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 767px) {
     .cover {
-        margin-bottom: 88px;
+        margin-bottom: 0;
     }
 }
 @media screen and (min-width: 1023px) {
     .cover {
-        margin-bottom: 92px;
+        margin-bottom:0;
     }
-}
+}*/
