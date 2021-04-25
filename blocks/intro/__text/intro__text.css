@@ -1,19 +1,19 @@
-
 .intro__text {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.63;
-    margin-top: 39px;
-    margin-bottom: 2.125em;
-    max-width: 288px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.63;
+  margin: 42px auto 36px;
+  max-width: 288px;
 }
 @media screen and (min-width: 767px) {
-    .intro__text {
-        max-width: 720px;
-    }
+  .intro__text {
+    max-width: 720px;
+    margin: 0 auto 33px;
+  }
 }
-@media screen and (min-width: 767px) {
-    .intro__text {
-        max-width: 690px;
-    }
+@media screen and (min-width: 1023px) {
+  .intro__text {
+    max-width: 690px;
+    margin: 0px 0px 43px 0px;
+  }
 }

@@ -1,8 +1,8 @@
 .page {
-    font-family: 'Inter', Arial, sans-serif;
-    text-rendering: optimizeLegibility;
-    background-color: #2A2C2F;
-    color: white;
-    margin: 0 auto;
-    overflow-x: hidden;
- } 
+  font-family: "Inter", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: #2a2c2f;
+  color: white;
+  margin: 0 auto;
+  max-width: 1184px;
+}

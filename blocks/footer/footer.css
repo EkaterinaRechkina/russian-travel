@@ -1,18 +1,23 @@
 .footer {
-    display: grid;
-    gap: 48px;
-    padding: 64px 0 0 16px;
-    margin:auto 0;
+  display: grid;
+  gap: 48px;
+  padding: 64px 0 0 16px;
+  margin: auto 0;
 }
 @media screen and (min-width: 767px) {
-    .footer {
-        display: flex;
-        justify-content: space-between;
-        padding: 88px 24px 0;     
-    }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 24px 0;
+  }
 }
 @media screen and (min-width: 1023px) {
-    .footer {
-        padding: 92px 48px 0;      
-    }
+  .footer {
+    padding: 92px 48px 0;
+  }
+}
+@media screen and (min-width: 1279px) {
+  .footer {
+    padding: 92px 0 0;
+  }
 }

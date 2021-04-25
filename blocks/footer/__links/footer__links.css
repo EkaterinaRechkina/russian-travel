@@ -1,12 +1,13 @@
 .footer__links {
-    list-style-type: none;
-    padding: 0;
-    display: grid;
-    gap: 32px;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  gap: 32px;
+  margin: 0;
 }
 @media screen and (min-width: 767px) {
-    .footer__links {
-        display: flex;
-    }
+  .footer__links {
+    display: flex;
+    gap: 19px;
+  }
 }

@@ -1,22 +1,22 @@
 .place__image {
-    width: 320px;
-    height: 320px;
+  width: 320px;
+  height: 320px;
 }
 @media screen and (min-width: 767px) {
-    .place__image {
-        width: 340px;
-        height: 340px;
-    }
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
 }
-@media screen and (min-width: 767px) {
-    .place__image {
-        width: 440px;
-        height: 440px;
-    }
+@media screen and (min-width: 1023px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
 }
-@media screen and (min-width: 1079px) {
-    .place__image {
-        width: 460px;
-        height: 460px;
-    }
+@media screen and (min-width: 1279px) {
+  .place__image {
+    width: 460px;
+    height: 460px;
+  }
 }

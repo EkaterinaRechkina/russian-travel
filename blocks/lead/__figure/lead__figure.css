@@ -1,13 +1,13 @@
 .lead__figure {
-    margin: 0;  
+  margin: 0;
 }
 @media screen and (min-width: 1023px) {
-    .lead__figure {
-        margin: 0 48px;  
-    }
+  .lead__figure {
+    margin: 0 48px;
+  }
 }
-@media screen and (min-width: 1079px) {
-    .lead__figure {
-        margin: 0px 130px 0px 101px; 
-    }
+@media screen and (min-width: 1279px) {
+  .lead__figure {
+    margin: 0px 130px 0px 101px;
+  }
 }
