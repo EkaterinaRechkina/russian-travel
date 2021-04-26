@@ -1,0 +1,8 @@
+.place__title_size_m {
+  max-width: 300px;
+}
+@media screen and (min-width: 767px) {
+  .place__title_size_m {
+    max-width: 200px;
+  }
+}
