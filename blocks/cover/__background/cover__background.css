@@ -5,6 +5,7 @@
   background-image: url(./../../../images/__background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
